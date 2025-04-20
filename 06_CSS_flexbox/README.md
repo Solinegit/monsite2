@@ -1,45 +1,5 @@
 # flexbox CSS
 
-:memo: [éditer cette page](https://gitlab.com/-/ide/project/webdev101/webdev101.gitlab.io/edit/main/-/public/06_CSS_flexbox/README.md)
-
-le but est ici de comprendre comment fonctionne le flexbox en CSS, de manière très rapide (juste les bases).
-
-## jeux en ligne pour apprendre
-
-vous pouvez faire ce petit jeu en ligne pour apprendre les bases du flexbox:
-https://flexboxfroggy.com/ (rigolo et rapide mais pas très complet)
-
-Je vous donne aussi d'autres jeux en ligne pour apprendre le flexbox, mais pas obligé de les faire, c'est juste pour info:
-
-https://www.flexboxgame.com/  (super sauf qu'on voit pas le résultat en CSS, c'est un editeur WYSIWYG)
-
-http://www.flexboxdefense.com/  (plus long que froggy)
-
-https://codingfantasy.com/games/flexboxadventure  (un peu long, il faut écrire à la main...)
-
-## tutoriel complet
-
-voici un tutoriel en anglais pour apprendre le flexbox, attention ce tutoriel est très complet, il est long, mais il est très bien fait, je vous le conseille si vous voulez vraiment comprendre le flexbox en profondeur (pas nécessaire pour le TP):
-
-https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/#introduction-to-flexbox-1
-
-## flexbox playground
-
-ici vous avez des Playgrounds pour tester le flexbox:
-
-Celui que je préconise est:
-
-https://loading.io/flexbox/   (il me semble le plus complet, avec possibilité de générer de l'aléatoire dans la taille des éléments ce qui est bien)
-
-je vous donne aussi d'autres playgrounds pour tester le flexbox:
-
-https://quasar.dev/layout/grid/flex-playground/  (hyper complet mais l'aléatoire doit se faire à la main)
-
-https://flexbox.tech/  (ne peut pas faire d'aléatoire dans la taille des éléments)
-
-https://flexiting.com/playground/   (ne peut pas faire d'aléatoire dans la taille des éléments)
-
-https://www.flexbox.fun/  (malheureusement, en cours de construction)
 
 
 ## Exercice
@@ -52,10 +12,24 @@ https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Flexbox_skills#dispos
 https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Flexbox_skills#disposition_flexible_4
 
 
-## autres exercices (non obligatoires)
+# Solutions
 
-https://lab-sticc.univ-brest.fr/~leparc/Etud/Licence/IntroInfo/WebPascal/TP9_Web.pdf
+# Exercice 1
 
+[ex1.html](ex1.html":include :type=code html")
+[ex1.css](ex1.css":include :type=code css")
 
+# Exercice 2
 
+[ex2.html](ex2.html":include :type=code html")
+[ex2.css](ex2.css":include :type=code css")
 
+# Exercice 3
+
+[ex3.html](ex3.html":include :type=code html")
+[ex3.css](ex3.css":include :type=code css")
+
+# Exercice 4
+
+[ex4.html](ex4.html":include :type=code html")
+[ex4.css](ex4.css":include :type=code css")
