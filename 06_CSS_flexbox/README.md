@@ -22,6 +22,7 @@ https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Flexbox_skills#dispos
 # Exercice 2
 
 [ex2.html](ex2.html":include :type=code html")
+
 [ex2.css](ex2.css":include :type=code css")
 
 # Exercice 3
