@@ -18,13 +18,9 @@ Fichier index.astro
 
 [index.astro](index.astro ":include :type=code html")
 
+
+
+
 Fichier app.ts
 
----
-const my_hello_message: string = "Hello, hello TYPESCRIPT World!";
-// create a new heading 1 element
-const my_title: HTMLHeadingElement = document.createElement("h1");
-my_title.textContent = my_hello_message;
-// add the heading the document
-document.body.appendChild(my_title);
----
+[app.ts](app.ts ":include :type=code ts")
