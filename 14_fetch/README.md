@@ -53,3 +53,15 @@ D'après la documentation, le retour est un geojson FeatureCollection respectant
 2. Créez une nouvelle classe `AddressService` avec une méthode `searchAddress` qui doit accepter deux paramètres : `query` (une chaîne de caractères représentant l'adresse à rechercher) et `limit` (un nombre entier représentant le nombre maximum de résultats à retourner). La méthode `searchAddress` doit retourner une promesse (`Promise`) qui se résout avec les résultats de la recherche d'adresses. Faites en sorte que la `query` soit encodée pour être utilisée dans une URL, c'est à dire que les espaces et autres caractères spéciaux soient encodés en général avec des pourcentages. Par exemple, la chaîne "8 bd du port" doit être transformée en "8%20bd%20du%20port" pour être utilisée dans une URL. Vous pouvez utiliser la fonction prédéfinie `encodeURIComponent` pour cela. Utilisez `fetch` pour faire une requête GET à l'URL https://api-adresse.data.gouv.fr/search/. Ajoutez les paramètres `q` et `limit` à l'URL avec les valeurs fournies.
 3. Créez une instance de `AddressService` et utilisez-la pour rechercher une adresse avec la chaine "8 bd du port". Ajoutez une méthode pour afficher les résultats dans la console ainsi que sur la page web, en particulier les propriétés `city`, `postcode`, `street`, `housenumber`, `context`, `lat` et `lon` de chaque résultat. Vous pouvez utiliser une liste HTML pour afficher les résultats.
 4. Gérez les erreurs qui peuvent survenir lors de la réalisation de la requête à l'API.
+
+
+
+# Réponse 
+
+Fichier index.astro
+
+[index.astro](index.astro ":include :type=code html")
+
+Ficher app.ts 
+
+[app.ts](app.ts ":include :type=code ts")
