@@ -1,0 +1,14 @@
+ul {
+    display: flex;         /* met les éléments en ligne */
+    flex-wrap: wrap;       /* permet de passer à la ligne si ça dépasse */
+    gap: 10px;             /* espace entre les éléments */
+    padding: 0;
+    margin: 0;
+    list-style: none;      /* enlève les puces */
+  }
+  
+  li {
+    background: #e0f7fa;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }

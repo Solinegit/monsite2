@@ -1,0 +1,13 @@
+.parent {
+    display: flex;               /* active Flexbox */
+    justify-content: center;     /* centre horizontalement */
+    align-items: center;         /* centre verticalement */
+    height: 300px;               /* donne une hauteur visible au parent */
+    border: 1px solid #ccc;      /* juste pour voir le cadre */
+  }
+  
+  .child {
+    padding: 20px;
+    background-color: lightblue;
+  }
+  

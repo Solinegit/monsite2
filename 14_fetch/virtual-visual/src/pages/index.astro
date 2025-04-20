@@ -1,0 +1,52 @@
+---
+
+---
+
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tremblements de terre</title>
+  </head>
+  <body>
+    <h1>Derniers tremblements de terre</h1>
+    <p>Chargement des données...</p>
+    <h1>Recherche d'adresse</h1>
+    <input type="text" id="searchInput" placeholder="Entrez une adresse..." />
+    <button id="searchBtn">Rechercher</button>
+    <ul id="resultsList"></ul>
+
+    
+    <script type="module" src="../scripts/app.ts" ></script>
+    <h1>Résultats de la recherche : "8 bd du port"</h1>
+    <ul id="resultList"></ul>
+
+    <script type="module">
+      import { AddressService } from "../scripts/app.ts";
+
+const service = new AddressService();
+const resultList = document.getElementById("resultList");
+
+async function afficherResultats() {
+ const results = await service.searchAddress("8 bd du port", 5);
+
+ results.forEach((addr) => {
+   console.log(addr);
+   const li = document.createElement("li");
+   li.textContent = `${addr.housenumber} ${addr.street}, ${addr.postcode} ${addr.city} (${addr.context}) - [${addr.lat}, ${addr.lon}]`;
+   resultList?.appendChild(li);
+ });
+}
+
+afficherResultats();
+ 
+    </script>
+
+    <script type="module">
+      import { EarthquakeService } from "../scripts/app.ts";
+
+
+
+  </script>
+
+  </body>
+</html>
