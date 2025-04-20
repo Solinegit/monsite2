@@ -1,40 +1,6 @@
 # CORS (Cross-Origin Resource Sharing)
 
-:memo: [éditer cette page](https://gitlab.com/-/ide/project/webdev101/webdev101.gitlab.io/edit/main/-/public/15_cors/README.md)
 
-Ce code interagit avec l'API de Deezer pour récupérer et afficher une liste de genres musicaux.
-
-## Explication du code
-
-Voici ce que fait chaque partie du code :
-
-La fonction `getGenresFromDeezer` fait une requête à l'API de Deezer pour obtenir une liste de genres musicaux. Elle utilise `fetch` pour faire la requête, puis `await` pour attendre que la promesse renvoyée par `fetch` soit résolue. Ensuite, elle convertit la réponse en JSON et renvoie les données de genre.
-
-La méthode `then` est utilisée pour traiter la promesse renvoyée par `getGenresFromDeezer`. Elle prend une fonction de rappel qui est appelée lorsque la promesse est résolue. Cette fonction de rappel prend la liste des genres et utilise `forEach` pour afficher le nom de chaque genre dans la console.
-
-Ensuite, le même processus est répété, mais cette fois en utilisant une classe `DeezerService`. Cette classe a deux méthodes : `getGenresFromDeezer`, qui fait la même chose que la fonction du même nom, et `displayGenres`, qui récupère les genres de Deezer et les affiche.
-
-Enfin, une instance de `DeezerService` est créée et la méthode `displayGenres` est appelée pour afficher les genres.
-
-## restrictions de la politique de même origine (CORS) lors de l'exécution côté client
-
-Nous allons montrer que le navigateur bloque les requêtes à cause des restrictions de la politique de même origine (CORS) imposées par l'API de Deezer.
-
-CORS signifie Cross-Origin Resource Sharing (Partage de ressources entre origines). C'est un mécanisme qui permet à de nombreux ressources (par exemple, les polices, les images, les scripts) sur une page web d'être demandées à un autre domaine que celui du site d'origine.
-
-Par défaut, la politique de même origine (Same-Origin Policy) dans les navigateurs web empêche les requêtes d'accéder à des ressources de différents domaines. Cette politique est une mesure de sécurité importante pour empêcher les attaques de type "Cross-Site Request Forgery" (CSRF) - vous pouvez en savoir plus sur Wikipedia par exemple.
-
-Cependant, CORS permet aux serveurs de spécifier qui (c'est-à-dire, quels domaines) peut accéder à leurs ressources. Cela se fait en ajoutant des en-têtes HTTP spécifiques qui indiquent quels domaines sont autorisés à accéder aux ressources.
-
-Dans notre cas, l'API de Deezer n'autorise pas les requêtes CORS directes depuis votre domaine (ici votre domaine est localhost, car vous exécutez le code en local), et votre navigateur empêchera ces requêtes. 
-
-Faites deux tests: une exécution côté client en montrant que les requêtes sont bloquées par le navigateur et une exécution côté serveur (code qui s'exécute sur le serveur ASTRO) pour contourner ce problème.
-
-[app.ts](app.ts ":include :type=code typescript")
-
-# lecture
-
-pas de lecture particulière si ce n'est https://fr.wikipedia.org/wiki/Cross-origin_resource_sharing
 
 # exercice
 
@@ -145,3 +111,14 @@ export enum DatumType {
   Track = "track",
 }
 ```
+
+
+# Réponse 
+
+Fichier index.astro
+
+[index.astro](index.astro ":include :type=code html")
+
+Ficher app.ts 
+
+[app.ts](app.ts ":include :type=code ts")
