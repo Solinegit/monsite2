@@ -4,6 +4,4 @@ Les console.log() des fonctions effectuées coté client apparaissent dans la co
 
 
 
-
-
 Dans la console du navigateur il y a effectivement deux fetch : un fait par getCurrentHumidity et l'autre par GetCurrentWind
