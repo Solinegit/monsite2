@@ -16,13 +16,16 @@ https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Flexbox_skills#dispos
 
 # Exercice 1
 
+Code HTML
 [ex1.html](ex1.html":include :type=code html")
+Code CSS
 [ex1.css](ex1.css":include :type=code css")
 
 # Exercice 2
 
+Code HTML
 [ex2.html](ex2.html":include :type=code html")
-
+Code CSS
 [ex2.css](ex2.css":include :type=code css")
 
 # Exercice 3
