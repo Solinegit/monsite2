@@ -16,25 +16,7 @@
 
 Fichier index.astro 
 
----
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    <title>WebDev101 Telecom Paris</title>
-</head>
-
-<body>
-    <script src="../scripts/app.ts"></script>
-    
-</body>
-
-</html>
-
----
+[index.astro](index.astro ":include :type=code html")
 
 Fichier app.ts
 
