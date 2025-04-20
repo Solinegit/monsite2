@@ -1,7 +1,6 @@
 # 03 les modules
 
 
-
 # Exercice
 
 1. Créez une application avec trois fichiers: `calculJours.ts` `moduleVacances.ts` et `moduleTravail.ts` qui utilisent des modules pour calculer le nombre de jours de vacances restants et le nombre de jours de travail restants pour un employé. 
