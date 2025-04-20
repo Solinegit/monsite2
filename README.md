@@ -1,3 +1,6 @@
-# Bienvenue sur mon site ✨
+# ✨ Bienvenue sur mon site ✨
 
-Ceci est une version personnalisée du cours WebDev101, propulsée par Docsify.
+Sur ce site, vous pouvez trouver tous mes TPs de WebDev101.
+
+Bonne lecture !
+
