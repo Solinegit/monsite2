@@ -11,7 +11,9 @@
 - Démarrez un serveur avec astro et déboguez dans Chrome votre application.
 
 
-# Code 
+
+
+# Solution
 
 
 Fichier index.astro 
