@@ -30,10 +30,14 @@ Code CSS
 
 # Exercice 3
 
+Code HTML
 [ex3.html](ex3.html":include :type=code html")
+Code CSS
 [ex3.css](ex3.css":include :type=code css")
 
 # Exercice 4
 
+Code HTML
 [ex4.html](ex4.html":include :type=code html")
+Code CSS
 [ex4.css](ex4.css":include :type=code css")
