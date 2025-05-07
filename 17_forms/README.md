@@ -41,6 +41,7 @@ vous pouvez approfondir sur la page https://developer.mozilla.org/fr/docs/Learn/
 
 en particulier https://developer.mozilla.org/fr/docs/Learn/Forms/Your_first_form et https://developer.mozilla.org/fr/docs/Learn/Forms/HTML5_input_types  sont des ressources intéressantes
 
+
 # Exercice 
 
 Créez une application côté serveur (car l'API bloque en CORS) qui utilise l'API REST publique OpenAQ (https://docs.openaq.org/). Cette API fournit des données sur la qualité de l'air dans le monde entier. Vous devez d'abord vous inscrire sur le site (et valider votre email) pour avoir un clé d'accès API qui sera disponible sur mon compte une fois connecté.
