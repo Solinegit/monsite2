@@ -1,5 +1,7 @@
 # webcomponents
 
+:memo: [éditer cette page](https://gitlab.com/-/ide/project/webdev101/webdev101.gitlab.io/edit/main/-/public/18_webcomponents/README.md)
+
 
 Les webcomponents sont des éléments HTML personnalisés (des balises avec des noms personnalisés) qui peuvent être réutilisés dans une application web. Ils permettent de créer des composants réutilisables et modulaires qui peuvent être facilement intégrés dans une page web.
 
